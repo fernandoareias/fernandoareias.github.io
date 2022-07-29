@@ -1,0 +1,13 @@
+
+
+.footer {
+    background: #000000;
+    display: grid;
+    justify-items: center;
+   
+}
+
+.footer p{
+    padding: 10px;
+    color: #ffffff;
+}
