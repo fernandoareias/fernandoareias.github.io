@@ -1,0 +1,33 @@
+
+.contato{
+    background-color: #6554CC;
+    
+}
+
+.contato__container  {
+    max-width: 1200px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    display: grid;
+    
+    gap: 100px;
+    justify-content: center;
+}
+
+.contato__itens {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.contato__itens a {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+}
+

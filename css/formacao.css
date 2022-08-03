@@ -1,5 +1,5 @@
 .formacao {
-    background: #141414;
+    background: #1B1824;
     color: #ffffff
 }
 
@@ -22,7 +22,7 @@
     line-height: 1.33;
     margin-bottom: 60px;
     max-width: 40ch;
-    color: #a3a3a3;
+    color: #B7B6B9;
 }
 
 .formacao__texto strong {
@@ -44,6 +44,7 @@
     border-radius: 4px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .faculdade-tipo {
