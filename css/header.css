@@ -54,3 +54,16 @@
         border-radius: 4px;
     }
 }
+
+@media (max-width: 400px){
+    .header {
+        display: flex;
+        align-items: start;
+        max-width: 380px;
+        box-sizing: border-box;
+    }
+
+    .header__menu{
+        display: none;
+    }
+}
