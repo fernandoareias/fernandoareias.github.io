@@ -38,6 +38,7 @@
 }
 
 .faculdade {
+    max-width: 250px;
     flex: 1;
     background: #000000;
     padding: 20px;

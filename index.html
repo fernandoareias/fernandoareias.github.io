@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header class="header">
-        <img src="./img/logo.svg" alt="Fernando">
+    <header class="header slideInDown">
+        <img src="./img/logo.svg" alt="Fernando" class="">
         <nav>
             <ul class="header__menu">
                 <li><a href="#experiencia">Experiência</a></li>
@@ -24,7 +24,7 @@
         </nav>
     </header>
 
-    <main class="introducao">
+    <main class="introducao slideInLeft">
         <img src="./img/profile.svg" alt="Garoto escrevendo no computador">
         <div class="">
             <h1>Desenvolvedor <br>Back-End</h1>
@@ -32,24 +32,24 @@
         </div>
     </main>
 
-    <section arial-label="Experiência" id="experiencia" class="experiencia">
-        <h2 class="subtitulo">Experiência</h2>
+    <section arial-label="Experiência" id="experiencia" class="experiencia js-scroll">
+        <h2 class="subtitulo slideInLeft">Experiência</h2>
         <div>
-            <p class="experiencia__texto">
+            <p class="experiencia__texto slideInDown">
                 Possuo experiência com análise e desenvolvimento de sistemas com foco em computação distribuída.</p>
             <!-- Inicio experiência empresas -->
 
-            <div class="experiencia__empresa">
+            <div class="experiencia__empresa fadeIn">
                 <span class="experiencia__empresa__ano">2022 - *</span>
                 <h3 class="experiencia__empresa__titulo">Senff 💰</h3>
-                <span class="experiencia__empresa__titulo">Analista de Sistemas Júnior</span>
+                <span class="experiencia__empresa__titulo">Analista de Sistemas</span>
                 <p class="experiencia__empresa__texto">Atuo com o desenvolvimento e manutenção de aplicações voltadas para o mercado financeiro.</p>
                 <ul class="experiencia__empresa__habilidades">
 
                 </ul>
             </div>
 
-            <div class="experiencia__empresa">
+            <div class="experiencia__empresa fadeIn">
                 <span class="experiencia__empresa__ano">2021 - 2022</span>
                 <h3 class="experiencia__empresa__titulo">Marlin 🚀</h3>
                 <span class="experiencia__empresa__titulo">Desenvolvedor Júnior</span>
@@ -64,7 +64,7 @@
                 </ul>
             </div>
 
-            <div class="experiencia__empresa">
+            <div class="experiencia__empresa fadeIn">
                 <span class="experiencia__empresa__ano">2020 - 2021</span>
                 <h3 class="experiencia__empresa__titulo">Nariz Solidário 💓</h3>
                 <span class="experiencia__empresa__titulo">Voluntário</span>
@@ -81,33 +81,31 @@
         </div>
     </section>
 
-    <section id="formacao" class="formacao" aria-label="Formação">
+    <section id="formacao" class="formacao js-scroll" aria-label="Formação">
         <div class="formacao-container">
-            <h2 class="subtitulo">Formação</h2>
+            <h2 class="subtitulo slideInLeft">Formação</h2>
             <div>
-                <p class="formacao__texto">
+                <p class="formacao__texto slideInDown">
                     Estou me dedicando ao curso bacharel em Ciência da Computação na Universidade Anhembi Morumbi.</p>
                 <ul class="faculdade-lista">
-                    <li class="faculdade">
+                    <li class="faculdade fadeIn">
                         <span class="faculdade-tipo">Bacharel</span>
                         <h3 class="faculdade-curso">Ciência da Computação</h3>
                         <span class="faculdade-instituicao">UAM</span>
                     </li>
                     <!-- Temporário -->
-                    <div class="faculdade" style="background-color: initial;">
 
-                    </div>
 
                 </ul>
 
-                <div class="formacao-extra">
+                <div class="formacao-extra fadeIn">
                     <div class="cursos">
                         <h3>Cursos Intensivos</h3>
                         <ul>
                             <li>Formação ASP.NET Core Expert<span>70h</span></li>
                         </ul>
                     </div>
-                    <div class="idiomas">
+                    <div class="idiomas fadeIn">
                         <h3>Idiomas</h3>
                         <ul>
                             <li>Inglês <span>/ Intermediário</span></li>
@@ -119,8 +117,8 @@
         </div>
     </section>
 
-    <section class="contato" id="contato">
-        <div class="contato__container">
+    <section class="contato js-scroll" id="contato">
+        <div class="contato__container slideInLeft">
             <ul class="contato__itens">
                 <li>
                     <a href="https://www.linkedin.com/in/fernando-calheiros/" target="_blank">
@@ -141,17 +139,11 @@
         </div>
     </section>
 
-    <footer class="footer">
-        <p>Desenvolvido com 💓 </p>
+    <footer class="footer js-scroll">
+        <p class="fadeIn">Desenvolvido com 💓 </p>
     </footer>
 
-    <script>
-        if (screen.width < 1085) {
-            window.alert("Vou desenvolver a versão responsiva nas férias :D");
-        }
-
-
-    </script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
