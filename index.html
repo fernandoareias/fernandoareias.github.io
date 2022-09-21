@@ -15,7 +15,9 @@
     <header class="header slideInDown">
         <img src="./img/logo.svg" alt="Fernando" class="">
         <nav>
-            <ul class="header__menu">
+            <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+
+            <ul class="header__menu" data-menu="list" id="menu">
                 <li><a href="#experiencia">Experiência</a></li>
                 <li><a href="#formacao">Formação</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -26,7 +28,7 @@
 
     <main class="introducao slideInLeft">
         <img src="./img/profile.svg" alt="Garoto escrevendo no computador">
-        <div class="">
+        <div class="introducao__card">
             <h1>Desenvolvedor <br>Back-End</h1>
             <p>Localizado no Rio de Janeiro 🏖️</p>
         </div>
