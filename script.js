@@ -8,6 +8,8 @@ function scrollToSection(event) {
     behavior: 'smooth',
     block: 'start',
   });
+  menuLista.classList.remove('active');
+  menuButton.classList.remove('active');
 }
 
 links.forEach((link) => {
@@ -46,10 +48,11 @@ function outsideClick(element, events, callback) {
 
 const menuButton = document.querySelector('[data-menu="button"]');
 const menuLista = document.querySelector('[data-menu="list"]');
+let activo = false;
 
-function openMenu(event) {
-  menuLista.classList.add('active');
-  menuButton.classList.add('active');
+function clickMenu(event) {
+  menuLista.classList.toggle('active');
+  menuButton.classList.toggle('active');
 
   outsideClick(menuLista, ['click', 'touchstart'], () => {
     menuLista.classList.remove('active');
@@ -57,4 +60,4 @@ function openMenu(event) {
   });
 }
 
-menuButton.addEventListener('click', openMenu);
+menuButton.addEventListener('click', clickMenu);
