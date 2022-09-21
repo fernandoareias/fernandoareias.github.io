@@ -7,6 +7,9 @@
     gap: 100px;
     align-items: center;
 }
+.introducao__card {
+    position: relative;
+}
 
 .introducao h1 {
     font-size: 4.5rem;
