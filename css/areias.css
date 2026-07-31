@@ -265,6 +265,7 @@ h3 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    gap: .5rem;
     padding: .85rem 1.8rem;
     border-radius: 999px;
     font-weight: 600;
@@ -817,6 +818,9 @@ h3 {
 }
 
 .footer__links a {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
     color: var(--text-light-muted);
     transition: color .2s ease;
 }
